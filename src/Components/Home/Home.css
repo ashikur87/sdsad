@@ -1,0 +1,13 @@
+.product-container{
+    display: flex;
+}
+.products{
+    margin: 50px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10;
+}
+.cart{
+    margin: 50px;
+}
